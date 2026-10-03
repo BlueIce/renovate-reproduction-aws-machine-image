@@ -10,4 +10,4 @@ A PR is opened with the image upgrade
 
 ## Link to the Renovate issue or Discussion
 
-[Put your link to the Renovate issue or Discussion here.](https://github.com/renovatebot/renovate/discussions/46724)
+https://github.com/renovatebot/renovate/discussions/46724
