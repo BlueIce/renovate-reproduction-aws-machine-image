@@ -6,11 +6,11 @@ Then replace the current `h1` with the Renovate Issue/Discussion number.
 
 ## Current behavior
 
-Explain the current behavior here.
+No PR is opened and a warning is logged about "Unexpected downgrade detected: skipping"
 
 ## Expected behavior
 
-Explain the expected behavior here.
+A PR is opened with the image upgrade
 
 ## Link to the Renovate issue or Discussion
 
