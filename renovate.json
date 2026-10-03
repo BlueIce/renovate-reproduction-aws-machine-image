@@ -1,1 +1,15 @@
-{}
+{
+  "customManagers": [
+    {
+      "customType": "regex",
+      "managerFilePatterns": [
+        "/\\.tf$/"
+      ],
+      "matchStrings": [
+        "#\\s*renovate:\\s*amiFilter=(?<packageName>.*?)\n(\\s*#\\s*currentImageName=(?<currentDigest>.*?)\n)?(.*\n)?.*?(?<depName>[a-zA-Z0-9-_:]*)[ ]*?[:|=][ ]*?\"(?<currentValue>ami-[a-z0-9]{17})\""
+      ],
+      "datasourceTemplate": "aws-machine-image",
+      "versioningTemplate": "aws-machine-image"
+    }
+  ]
+}
