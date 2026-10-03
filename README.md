@@ -1,5 +1,7 @@
 # 46724
 
+Credentials for AWS are needed and a policy which allows "ec2:DescribeImages"
+
 ## Current behavior
 
 No PR is opened and a warning is logged about "Unexpected downgrade detected: skipping"
