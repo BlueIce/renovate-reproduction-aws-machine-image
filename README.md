@@ -1,6 +1,6 @@
 # 46724
 
-Credentials for AWS are needed and a policy which allows "ec2:DescribeImages"
+Credentials for AWS are needed and a policy which allows `ec2:DescribeImages`
 
 ## Current behavior
 
